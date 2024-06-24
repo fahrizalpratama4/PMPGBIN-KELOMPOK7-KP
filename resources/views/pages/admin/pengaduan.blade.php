@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PENGMAPAM | Pengaduan Mahasiswa unpam</title>
+  <title>PMP GBIN | Pengaduan Masyarakat Perum GBIN</title>
   
   <style>
     .thead{
@@ -19,13 +19,13 @@
 <body>
   <div class="container mt-5">
     <div class="title text-center mb-5">
-      <h2>Laporan Layanan Pengaduan Mahasiswa Unpam Online</h2>
+      <h2>Laporan Layanan Pengaduan Masyarakat Perum GBIN  Online</h2>
     </div>
     <table class="table table-bordered">
       <thead class="thead">
         <tr>
           <th scope="col">No</th>
-          <th scope="col">NIM</th>
+          <th scope="col">NIK</th>
           <th scope="col">Nama</th>
           <th scope="col">Pengaduan</th>
           <th scope="col">Tanggal</th>

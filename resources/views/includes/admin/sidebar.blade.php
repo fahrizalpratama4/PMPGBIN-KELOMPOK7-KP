@@ -1,10 +1,10 @@
 <!-- Desktop sidebar -->
 <aside class="z-20 hidden w-64 overflow-y-auto bg-white dark:bg-gray-800 md:block flex-shrink-0">
   <div class="py-4 text-gray-500 dark:text-gray-400">
-    <img src="{{ asset('img/logo.svg')}}" alt=""
+    <img src="{{ asset('img/logo1.png')}}" alt=""
       class="inline-flex ml-3 items-center transform transition hover:scale-125 duration-300 ease-in-out" />
     <a class="ml-3 text-lg font-bold text-gray-800 dark:text-gray-200" href="/">
-      PENGMAPAM
+      PMP GBIN
     </a>
     <ul class="mt-6">
       <li class="relative px-6 py-3">
@@ -49,7 +49,7 @@
               d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z">
             </path>
           </svg>
-          <span class="ml-4">Mahasiswa</span>
+          <span class="ml-4">Masyarakat</span>
         </a>
       </li>
     </ul>
@@ -105,7 +105,7 @@
   @keydown.escape="closeSideMenu">
   <div class="py-4 text-gray-500 dark:text-gray-400">
     <a class="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200" href="#">
-      PENGMAPAM
+      PMP GBIN
     </a>
     <ul class="mt-6">
       <li class="relative px-6 py-3">

@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PENGMAPAM | Pengaduan Mahasiswa Unpam</title>
+  
+  <title>PMP GBIN | Pengaduan Masyarakat Perum GBIN</title>
 
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-  <link rel="icon" href="{{ asset('img/favicon2.png')}}">
+  <link rel="icon" href="{{ asset('img/logo.png')}}">
   <style>
     html {
       scroll-behavior: smooth;
@@ -19,10 +20,10 @@
 
   <nav class="flex items-center justify-between flex-wrap bg-blue-200 p-7 px-20">
     <div class="flex items-center flex-shrink-0 text-black mr-6">
-      <img src="{{ asset('img/unpam1.png')}}" alt="unpam1"
+      <img src="{{ asset('img/logo1.png')}}" alt="GBIN"
         class="transform transition hover:scale-125 duration-300 ease-in-out" />
       <span class="font-bold tracking-wider text-xl">
-        &nbsp PENGMAPAM</span>
+        &nbsp PMP GBIN</span>
     </div>
     <div class="block lg:hidden">
       <button
@@ -63,7 +64,7 @@
       <!--Left Col-->
       <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left text-gray-800">
         <h1 class="my-4 text-4xl font-bold leading-tight">
-          Layanan Pengaduan Mahasiswa Unpam Online
+          Layanan Pengaduan Masyarakat Perum GBIN Online
         </h1>
         <p class="leading-normal text-1xl mb-8">
           Sampaikan laporan masalah Anda di sini, kami akan memprosesnya
@@ -157,7 +158,7 @@
   </div>
   <!-- Footer -->
   <footer class="text-center font-medium bg-blue-200 py-5">
-    © {{ now()->year }} PENGMAPAM | By Kelompok 7
+    © {{ now()->year }} PMP GBIN | By Kelompok 7
   </footer>
   @include('sweetalert::alert')
 </body>

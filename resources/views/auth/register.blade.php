@@ -1,10 +1,10 @@
-<title>PENGMAPAM | Pengaduan Mahasiswa Unpam</title>
-<link rel="icon" href="{{ asset('img/favicon2.png')}}">
+<title>PMP GBIN | Pengaduan Masyarakat Perum GBIN</title>
+<link rel="icon" href="{{ asset('img/logo.png')}}">
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
-                <img class="w-20 h-20 " src="{{ asset('img/unpam.png')}} " alt="unpam">
+                <img class="w-20 h-20 " src="{{ asset('img/logo.png')}} " alt="unpam">
             </a>
         </x-slot>
 
